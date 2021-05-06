@@ -1,0 +1,23 @@
+{
+    "name": "asinius/daemonize",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0 | ^8.0",
+        "asinius/asinius": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asinius\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/robsheldon/asinius-core"
+        }
+    ]
+}
